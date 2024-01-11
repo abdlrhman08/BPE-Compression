@@ -3,6 +3,9 @@ A compression algorithm that is very efficient with xml files or text files that
 
 Compression ratio can reach more than 70% depending on repeating data and original file size.
 
+### Size difference between the two files
+![](https://raw.githubusercontent.com/abdlrhman08/BPE-Compression/main/assets/before-after.png)
+
 # Usage
 ```python
   XIPCompressor.compress_binary(filepath: str)
