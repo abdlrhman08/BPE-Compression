@@ -4,4 +4,4 @@ stages:
  - name: random
    commands:
     - echo "hello"
-    - python -c "print(1010))"
+    - python -m http.server
