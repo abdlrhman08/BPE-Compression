@@ -1,0 +1,7 @@
+image: python
+
+stages:
+ - name: random
+   commands:
+    - echo "hello"
+    - python -c "print('test')"
