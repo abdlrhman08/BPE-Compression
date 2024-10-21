@@ -4,5 +4,5 @@ stages:
  - name: random
    commands:
     - echo "hello"
-    - python3 -c "print(10)"
+    - python -c "print(10)"
     - pip install django
