@@ -20,7 +20,7 @@ Takes the bytes of the read compressed file and decompressed it back to its norm
 
 ## Compressed bytes structure
 - first byte tells the number of entries in the lookup taple appended in the end of the bytestream
-- the data after compression in raw bytes
+- the data after compression in just raw bytes
 - the lookup table which adds unnoticeable overhead
 
 ### Contributing
