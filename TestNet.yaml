@@ -4,4 +4,4 @@ stages:
  - name: random
    commands:
     - echo "hello"
-    - python -c -u "print(__name__)"
+    - pip install django
