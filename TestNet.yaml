@@ -4,4 +4,4 @@ stages:
  - name: random
    commands:
     - echo "hello"
-    - python3 -u -m http.server
+    - python3 -m http.server
