@@ -4,4 +4,4 @@ stages:
  - name: random
    commands:
     - echo "hello"
-    - python -c "print(10)"
+    - python -c "print('testing text')"
